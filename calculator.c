@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-int main(void) {
-    int x = scanf("%d", &x);
-    int y = scanf("%d", &y);
+main(void) {
+    int x = 6;
+    int y;
 
-    printf("= %d\n", x + y);
-}
+    printf("%f\n", x / 2.0);
+
+    return 0;
+}   
